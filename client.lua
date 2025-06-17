@@ -36,14 +36,14 @@ Citizen.CreateThread(function()
 
             lastPosition = currentPosition
 
-            if afkTime == 10 and not waitingRedeem then
+            if afkTime == 600 and not waitingRedeem then
                 redeemCode = generateCode()
                 waitingRedeem = true
                 TriggerEvent('chat:addMessage', {
                     color = {255, 200, 0},
-                    args = {"AFK SYSTEM", "⚠️ Kamu tidak bergerak selama 10 detik! Ketik /redeemafk " .. redeemCode .. " untuk membuktikan kamu aktif."}
+                    args = {"AFK SYSTEM", "⚠️ Kamu tidak bergerak selama 10 menit! Ketik /redeemafk " .. redeemCode .. " untuk membuktikan kamu aktif."}
                 })
-            elseif afkTime >= 20 and waitingRedeem then
+            elseif afkTime >= 59 and waitingRedeem then
                 prevPosition = currentPosition
                 SetEntityCoords(ped, afkZone.x, afkZone.y, afkZone.z)
                 isInAFKZone = true
