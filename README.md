@@ -1,4 +1,4 @@
-<h1 align='center'>ESX DANCEROOM V1</a></h1><p align='center'><b><a href='https://discord.gg/gn5a6z97Tc'>Discord</a> - <a href=''>Documentation</a></b></h5>
+<h1 align='center'>AFK SYSTEM</a></h1><p align='center'><b><a href='https://discord.gg/gn5a6z97Tc'>Discord</a> - <a href=''>Documentation</a></b></h5>
 
 Script ini mendeteksi pemain yang **AFK (tidak bergerak)**, lalu meminta verifikasi dengan **kode acak**. Jika pemain gagal menebus kode dalam waktu tertentu, mereka akan dipindahkan ke **zona AFK**. Script ini cocok untuk mencegah **bot farming**, **idle abuse**, atau sekadar menjaga keaktifan pemain.
 
