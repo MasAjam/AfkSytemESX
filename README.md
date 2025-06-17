@@ -8,7 +8,7 @@ Script ini mendeteksi pemain yang **AFK (tidak bergerak)**, lalu meminta verifik
 
 ## ✨ Fitur Utama
 
-- ✅ Deteksi otomatis pemain AFK (tidak bergerak selama 10 detik).
+- ✅ Deteksi otomatis pemain AFK (tidak bergerak selama 10 menit).
 - 🔐 Peringatan redeem dengan kode acak (contoh: `/redeemafk 1234`).
 - ⏳ Jika tidak di-`redeem`, pemain dipindahkan ke zona AFK (`vector3(3070.78, -4702.41, 15.26)`).
 - 🔁 Pemain hanya bisa keluar dari zona AFK dengan `/quitafk`.
