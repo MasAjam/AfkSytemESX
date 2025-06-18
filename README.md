@@ -16,17 +16,6 @@ Script ini mendeteksi pemain yang **AFK (tidak bergerak)**, lalu meminta verifik
 - 🧠 Anti-spam & aman dari penyalahgunaan command.
 
 ---
-
-## 🧱 Dependency
-
-Script ini **tidak membutuhkan dependency tambahan**. Dapat digunakan di server FiveM biasa atau berbasis **ESX**. Hanya menggunakan fungsi native dari GTA V seperti:
-
-- `GetEntityCoords`
-- `SetEntityCoords`
-- `PlayerPedId`
-- `RegisterCommand`
-- `TriggerClientEvent`, dll.
-
 ---
 ### SUBSCRIBE & FOLLOW SAYA !
 <p>
